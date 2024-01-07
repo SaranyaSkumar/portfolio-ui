@@ -19,8 +19,8 @@ const ProfileCard = () => {
           <Image
             src="/me.jpeg"
             alt="Profile Picture"
-            width={120}
-            height={120}
+            width={200}
+            height={200}
             className="rounded-full"
           />
         </div>

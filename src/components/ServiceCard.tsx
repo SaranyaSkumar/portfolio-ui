@@ -39,9 +39,9 @@ const services = [
 // components/ServiceCard.js
 const ServiceCard = () => {
   return (
-    <div className="py-1 bg-black text-white">
-      <h2 className="text-4xl font-bold">What I Do!</h2>
-      <div className="mt-2 mb-6 h-1 w-32 bg-red-500 mb-10"></div>
+    <div className="py-1 bg-black text-white text-center md:text-left">
+      <h2 className="text-4xl font-bold inline-block">What I Do!</h2>
+      <div className="mt-2 mb-6 h-1 w-32 bg-red-500 mb-10 mx-auto md:mx-0"></div>
       <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
         {services.map((service, index) => (
           <div
