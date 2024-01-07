@@ -13,7 +13,7 @@ const WelcomePlayground = () => {
           <h1 className="text-3xl font-bold">Welcome to playground! 🧩</h1>
           <p className="text-lg pt-5">
             This is a space where I experiment and refine my abilities, applying
-            my knowledge to a variety of challenges and projects. It's a
+            my knowledge to a variety of challenges and projects. It&apos;s a
             testament to the ever-evolving journey of skill enhancement and
             technical exploration.{" "}
           </p>
