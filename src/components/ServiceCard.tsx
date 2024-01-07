@@ -19,7 +19,7 @@ const services = [
     description:
       "Proficient in designing and maintaining efficient, scalable databases.",
     icon: "💾", // Replace with your icon,
-    animation: <Lottie animationData={database} height={100} width={100} />,
+    animation: <Lottie animationData={database} height={140} width={140} />,
   },
   {
     title: "User Experience Design",
@@ -34,32 +34,25 @@ const services = [
     icon: "👩‍💼", // Replace with your icon
     animation: <Lottie animationData={project} height={140} width={140} />,
   },
-  // ... add other services as needed
 ];
 
 // components/ServiceCard.js
 const ServiceCard = () => {
   return (
-    <div className="py-1 bg-white">
+    <div className="py-1 bg-black text-white">
       <h2 className="text-4xl font-bold">What I Do!</h2>
       <div className="mt-2 mb-6 h-1 w-32 bg-red-500 mb-10"></div>
       <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="bg-purple-100 rounded-xl p-8 shadow-lg">
-            {/* <div className="flex flex-col w-full justify-center items-center">
-              <Lottie
-                animationData={frontend}
-                className="flex justify-center items-center"
-                loop={true}
-                height={140}
-                width={140}
-              />
-            </div> */}
+          <div
+            key={index}
+            className="bg-black-100 rounded-xl p-8 shadow-lg flex flex-col justify-between"
+          >
             <div className="text-6xl text-purple-500 mb-4">
               {service.animation}
             </div>
             <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-            <p className="text-gray-600">{service.description}</p>
+            <p className="text-gray-400">{service.description}</p>
           </div>
         ))}
       </div>

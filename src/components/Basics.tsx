@@ -4,7 +4,7 @@ import { FaPhone, FaHome, FaEnvelope, FaLinkedin, FaGithub, FaGlobe } from "reac
 const Basics = () => {
   return (
     <div
-      className="group rounded-lg border border-transparent px-5 py-4 transition-all bg-white"
+      className="group rounded-lg border border-transparent px-5 py-4 transition-all bg-black"
       rel="noopener noreferrer"
     >
       <h2 className={`mb-3 text-2xl font-semibold`}>Saranya Sasi Kumar</h2>
