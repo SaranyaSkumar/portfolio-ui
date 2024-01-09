@@ -165,7 +165,7 @@ import AboutMe from './AboutMe'
 
 const Experience = () => {
   return (
-    <div className='bg-black rounded-xl shadow-md overflow-hidden'>
+    <div className='rounded-xl shadow-md overflow-hidden'>
     <Header />
     <AboutMe />
     </div>

@@ -16,13 +16,13 @@ const Header = () => {
       <nav className="flex space-x-6">
         <a
           href="/"
-          className="flex items-center space-x-2 text-white hover:text-white focus:text-white"
+          className="flex items-center space-x-2"
         >
           <FaHome />
           <span>Home</span>
         </a>
         <a href="/playground" 
-                  className="flex items-center space-x-2 text-white hover:text-white focus:text-white">
+                  className="flex items-center space-x-2 ">
           <FaCode />
           <span>Playgorund</span>
         </a>

@@ -4,7 +4,7 @@ const Playground1 = () => {
   return (
     <>
       <div className=" text-gray-800">
-        <div className="m-20 bg-white text-black p-10 rounded-xl">
+        <div className="m-20 bg-black text-white p-10 rounded-xl">
           <h1 className="text-3xl font-semibold mt-10">Section 1</h1>
           <div className="mt-2 mb-6 h-1 w-24 bg-red-500"></div>
           <p className="text-lg">

@@ -8,7 +8,7 @@ import ServiceCard from './ServiceCard';
 
 const AboutMe = () => {
   return (
-    <div className=" text-gray-800 bg-black text-white">
+    <div className=" text-gray-800">
       <div className="p-10 text-center md:text-left">
         <h1 className="text-3xl font-bold inline-block">About Me</h1>
         <div className="mt-2 mb-6 h-1 w-24 bg-red-500 mx-auto md:mx-0"></div>
