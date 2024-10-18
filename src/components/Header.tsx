@@ -21,11 +21,11 @@ const Header = () => {
           <FaHome />
           <span>Home</span>
         </a>
-        <a href="/playground" 
+        {/* <a href="/playground" 
                   className="flex items-center space-x-2 ">
           <FaCode />
           <span>Playgorund</span>
-        </a>
+        </a> */}
         {/* <a href="#" className="flex items-center space-x-2" >
           <FaFile />
           <span>CV</span>

@@ -67,8 +67,8 @@ const ProfileCard = () => {
         </div> */}
         <a
           className="w-full mt-8 py-2 px-4 bg-white text-black font-bold rounded-full flex items-center justify-center"
-          href="/saranyasasikumar_cv.pdf"
-          download="saranyasasikumar_cv.pdf"
+          href="/SaranyaSasiKumar_CV.pdf"
+          download="SaranyaSasiKumar_CV.pdf"
         >
           <FaDownload className="mr-2" />
           Download CV
